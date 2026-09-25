@@ -63,22 +63,22 @@ console.log("Nama Kasir setelah reassignment:", namaKasir);
 // TODO 2C:
 // 1. Tampilkan pop-up salam pembuka selamat datang menggunakan alert().
 
-alert("Selamat datang di " + NAMA_KEDAI + "!");
+alert("Halo! Selamat datang di Kopi PSTI Kampus!\nSiap menikmati kopi dan mengumpulkan poin hari ini?");
 
 // 2. Tampilkan dialog prompt() untuk meminta nama pengunjung, simpan hasilnya ke variabel "namaPelanggan".
 
-let namaPelanggan = prompt("Masukkan nama Anda:");
+let namaPelanggan = prompt("Yuk, kenalan dulu! Siapa nama kamu?");
 
 // 3. Gunakan percabangan "if - else":
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 
 if (namaPelanggan) {
-    alert("Halo, " + namaPelanggan + "!");
+    alert("Selamat datang, " + namaPelanggan + "! \n" + "Senang bertemu denganmu.");
     console.log("Nama Pelanggan:", namaPelanggan);
 } else {
     namaPelanggan = "Pelanggan Setia";
-    alert("Selamat datang, " + namaPelanggan + "!");
+    alert("Selamat datang, " + namaPelanggan + "! \n" + "Senang bertemu denganmu.");
     console.log("Nama Pelanggan:", namaPelanggan);
 }
 
